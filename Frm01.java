@@ -1,9 +1,10 @@
 package aula1;
 import javax.swing.*;
 
-public class Fm01 {
+// ao extender do jframe a classe se torna uma janela.
+public class Frm01 extends JFrame {
   
-  public void criaTela (){
+  public Frm01 (){
     JFrame f= new JFrame();
     f.setSize(290,100); // tamanho da janela
     f.setTitle("Cadastro");
