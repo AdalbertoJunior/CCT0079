@@ -5,12 +5,11 @@ import javax.swing.*;
 public class Frm01 extends JFrame {
   
   public Frm01 (){
-    JFrame f= new JFrame();
-    f.setSize(290,100); // tamanho da janela
-    f.setTitle("Cadastro");
-    f.setLocation(10,10);
-    f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // o que faz quando fechar
-    f.setVisible(true); // ultimo atributo
+    super("Cadastro"); // primeira linha dentro do construtor
+    setSize(290,100); // tamanho da janela
+    setLocation(10,10);
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // o que faz quando fechar
+    setVisible(true); // ultimo atributo
   }
   
 }
